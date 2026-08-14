@@ -19,11 +19,11 @@ export async function getAllProducts(){
 }
 
 
-export async function getProductById(p_id){
-    const coll = await getColl('products')
-    const result = await coll.findOne({id: p_id})
-    return result
-}
+// export async function getProductById(p_id){
+//     const coll = await getColl('products')
+//     const result = await coll.findOne({id: p_id})
+//     return result
+// }
 
 
 
